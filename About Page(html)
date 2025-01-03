@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Major Beaches in India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>India Beaches</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a h ref="#">Home</a></li>
+                <li><a href="#">Beaches</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Banner Section -->
+    <section class="banner">
+        <div class="banner-text">
+            <h2>Discover the Best Beaches of India</h2>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <h3>Welcome to India's Best Beaches</h3>
+        <p>India is home to some of the most beautiful and serene beaches in the world. From the sandy shores of the
+            Arabian Sea to the pristine beaches along the Bay of Bengal, here are some of the most popular and
+            breathtaking beaches you must visit.</p>
+    </section>
+
+    <!-- Major Beaches Section -->
+    <section class="beaches">
+        <h2>Major Beaches in India</h2>
+
+        <!-- Beach 1: Baga Beach -->
+        <div class="beach">
+            <img src="baga-beach.jpg" alt="Baga Beach">
+            <h3>Baga Beach (Goa)</h3>
+            <p><strong>Location:</strong> North Goa, India</p>
+            <p><strong>Best Time to Visit:</strong> November to February</p>
+            <p><strong>Activities:</strong> Water sports, sunset cruises, nightlife</p>
+            <p><strong>Description:</strong> Baga Beach is famous for its vibrant nightlife, stunning sunset views, and
+                water sports. It is one of the busiest and most popular beaches in Goa.</p>
+        </div>
+
+        <!-- Beach 2: Marina Beach -->
+        <div class="beach">
+            <img src="marina-beach.jpg" alt="Marina Beach">
+            <h3>Marina Beach (Chennai)</h3>
+            <p><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
+            <p><strong>Best Time to Visit:</strong> November to February</p>
+            <p><strong>Activities:</strong> Morning walks, horse rides, visiting monuments</p>
+            <p><strong>Description:</strong> Marina Beach is the longest urban beach in India. It’s perfect for morning
+                walks, enjoying the sea breeze, and exploring nearby attractions.</p>
+        </div>
+
+        <!-- Beach 3: Varkala Beach -->
+        <div class="beach">
+            <img src="varkala-beach.jpg" alt="Varkala Beach">
+            <h3>Varkala Beach (Kerala)</h3>
+            <p><strong>Location:</strong> Varkala, Kerala, India</p>
+            <p><strong>Best Time to Visit:</strong> September to March</p>
+            <p><strong>Activities:</strong> Paragliding, yoga retreats, Ayurveda</p>
+            <p><strong>Description:</strong> Varkala Beach is known for its stunning cliffs and golden sand, making it a
+                top destination for relaxation and spiritual retreats.</p>
+        </div>
+
+        <!-- Beach 4: Radhanagar Beach -->
+        <div class="beach">
+            <img src="radhanagar-beach.jpg" alt="Radhanagar Beach">
+            <h3>Radhanagar Beach (Andaman)</h3>
+            <p><strong>Location:</strong> Havelock Island, Andaman & Nicobar Islands, India</p>
+            <p><strong>Best Time to Visit:</strong> October to May</p>
+            <p><strong>Activities:</strong> Snorkeling, swimming, exploring nearby islands</p>
+            <p><strong>Description:</strong> Radhanagar Beach is known for its pristine sand and clear water, considered
+                one of the best beaches in Asia for snorkeling and swimming.</p>
+        </div>
+
+        <!-- Beach 5: Palolem Beach -->
+        <div class="beach">
+            <img src="palolem-beach.jpg" alt="Palolem Beach">
+            <h3>Palolem Beach (Goa)</h3>
+            <p><strong>Location:</strong> South Goa, India</p>
+            <p><strong>Best Time to Visit:</strong> November to February</p>
+            <p><strong>Activities:</strong> Kayaking, dolphin watching, yoga</p>
+            <p><strong>Description:</strong> Palolem Beach is a serene and scenic location, perfect for a relaxing time,
+                kayaking, and dolphin watching.</p>
+        </div>
+
+        <!-- Beach 6: Puri Beach -->
+        <div class="beach">
+            <img src="puri-beach.jpg" alt="Puri Beach">
+            <h3>Puri Beach (Odisha)</h3>
+            <p><strong>Location:</strong> Puri, Odisha, India</p>
+            <p><strong>Best Time to Visit:</strong> October to March</p>
+            <p><strong>Activities:</strong> Pilgrimages, swimming, beach festivals</p>
+            <p><strong>Description:</strong> Famous for its cultural significance, Puri Beach offers a combination of
+                spirituality and scenic beauty, along with the chance to enjoy local festivals.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2025 India Beaches. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
