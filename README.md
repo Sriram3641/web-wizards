@@ -1,2 +1,2 @@
-# web-wizards
+# TOURIST
 our first project
