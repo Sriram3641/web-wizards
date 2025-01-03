@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waves and Wonders - Beaches of India</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>Waves and Wonders</h1>
+    <p>Explore the Best Beaches of India</p>
+  </header>
+
+  <div id="map"></div>
+
+  <div id="beach-links">
+    <button id="discover-beaches-btn" onclick="toggleBeachList()">Discover Beaches</button>
+    <ul id="beach-list" style="display:none;">
+      <li><a href="#goa" onclick="showBeachInfo('Goa')">Goa</a></li>
+      <li><a href="#kerala" onclick="showBeachInfo('Kerala')">Kerala</a></li>
+      <li><a href="#andaman" onclick="showBeachInfo('Andaman Islands')">Andaman Islands</a></li>
+      <li><a href="#pondicherry" onclick="showBeachInfo('Pondicherry')">Pondicherry</a></li>
+      <li><a href="#perupalem" onclick="showBeachInfo('Perupalem')">Perupalem</a></li>
+      <li><a href="#Marina" onclick="showBeachInfo('Marina')">Marina</a></li>
+      <li><a href="#Juhu" onclick="showBeachInfo('Juhu')">Juhu</a></li>
+    </ul>
+  </div>
+
+
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    // Toggle the visibility of the beach list when the button is clicked
+    function toggleBeachList() {
+      var beachList = document.getElementById("beach-list");
+      if (beachList.style.display === "none") {
+        beachList.style.display = "block";
+      } else {
+        beachList.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
